@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Legal AI Case Submission</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container mt-5">
+    <h2 class="mb-4">Submit Your Case</h2>
+    <form method="POST" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label for="case_text" class="form-label">Describe your case</label>
+            <textarea class="form-control" id="case_text" name="case_text" rows="6" placeholder="Type your case details here..."></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="case_file" class="form-label">Or upload a document (PDF, DOCX, TXT)</label>
+            <input class="form-control" type="file" id="case_file" name="case_file" accept=".pdf,.docx,.txt">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+</body>
+</html>
