@@ -1,0 +1,4 @@
+requests
+openai
+PyPDF2
+python-dotenv
